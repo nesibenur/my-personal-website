@@ -1,0 +1,128 @@
+.name{
+    font-style: italic;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 2rem;
+   color: blueviolet;
+   margin-left: 30px;
+   /* margin-top: 35px; */
+}
+
+
+  
+  
+
+
+header{
+    display: flex;
+    background-color: mintcream;
+    border: 1px solid;
+    height: 100px;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 -2px 4px -2px black;
+
+}
+
+.links{
+    font-size: 2rem;
+    color: blueviolet;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 2rem;
+    margin-right: 30px;
+    margin-top: 35px;
+  }
+
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    color: darkred;
+}
+
+img{
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */
+        /* width: 40%; */
+        /* padding: 40px; */
+        float: left;
+        border: 1px solid;
+}
+
+.img1{
+   
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 75pxcd;
+}
+.img1 > img{
+  float: none;
+}
+.about-me{
+    width: 60%;
+    margin-left: 350px;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 75px;
+   
+  }
+
+  h2{
+    font-size: 2rem;
+    color: darkred;
+    
+   
+  }
+  p{
+    font-size: larger;
+    font-style: normal;
+    font-family: sans-serif;
+  }
+
+  body{
+    background-color: lavender;
+    
+  }
+.about-section{
+    margin-top: 100px;
+    width: 66%;
+}
+.workshop{
+    margin-top: 200px;
+    width: 66%; 
+}
+  footer{
+    /* position: fixed;
+    width: 100%;
+    bottom: 0; */
+    box-sizing: border-box;
+    position: relative;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+    background-color: mintcream;
+    height: 100px;
+   display: flex;
+  justify-content:center;
+  margin-top: 200px;
+  }
+.footer-icon{
+  margin-left: 15px;
+  margin-right: 15px;
+}
