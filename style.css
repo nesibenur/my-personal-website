@@ -6,12 +6,6 @@
    margin-left: 30px;
    /* margin-top: 35px; */
 }
-
-
-  
-  
-
-
 header{
     display: flex;
     background-color: mintcream;
@@ -39,10 +33,11 @@ header{
 
 a{
     text-decoration: none;
-
+   
 }
 a:hover{
-    color: darkred;
+    color: crimson;
+    
 }
 
 img{
@@ -85,7 +80,7 @@ h1 {
     font-size: 2rem;
     color: darkred;
     margin-left: 20px;
-}
+  }
 
 
 
@@ -152,9 +147,9 @@ h1 {
       box-shadow: 0 -2px 4px -2px black;
       background-color: mintcream;
       height: 100px;
-     display: flex;
-    justify-content:center;
-    margin-top: 200px;
+      display: flex;
+      justify-content:center;
+      margin-top: 200px;
   } 
 
 
@@ -162,6 +157,92 @@ section{
   background-color: white;
   height: 300px;
   box-shadow: 0 3px 6px -2px #ccc;
-border-color: 1px solid;
-margin-bottom: 5px;
+  border-color: 1px solid;
+  margin-bottom: 5px;
+  
 }
+.main1{
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px; 
+
+}
+
+
+.content {
+  flex-basis: 50%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 380px;
+}
+
+.contact-form {
+  flex-basis: 45%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 380px;
+ 
+}
+.contact{
+  font-size: larger;
+  font-style: normal;
+  font-family: sans-serif;
+  margin-left: 25px;
+}
+
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: crimson;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+h3{
+    text-align:center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    margin-left: 1000px;
+   
+}
+.success{
+  text-align:center;
+  font-family: sans-serif;
+  font-size: 25px;
+ }
+
+ label {
+  margin-bottom: 5px;
+}
+
